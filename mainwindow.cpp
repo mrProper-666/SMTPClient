@@ -73,7 +73,7 @@ bool MainWindow::authorize(){
             break;
     }
     QByteArray array;
-    array.append("EHLO 85.237.37.11\r\n");
+    array.append("EHLO 127.0.0.1\r\n");
     socket->write(array);
 
     arr.clear();
